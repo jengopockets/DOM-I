@@ -52,10 +52,10 @@ navItems[3].textContent = siteContent['nav']['nav-item-4'];
 navItems[4].textContent = siteContent['nav']['nav-item-5'];
 navItems[5].textContent = siteContent['nav']['nav-item-6'];
 
-const takema = document.createElement('a');
-takema.textContent = "Takema";
-takema.setAttribute("href", "#");
-takema.style.color = "green";
+const freestuff = document.createElement('a');
+freestuff.textContent = "Free Stuff";
+freestuff.setAttribute("href", "#");
+freestuff.style.color = "green";
 const ideas = document.createElement('a');
 ideas.textContent = "Ideas";
 ideas.classList.add('surprise');
@@ -63,7 +63,7 @@ ideas.setAttribute("href", "#");
 ideas.style.color = "green";
 
 const nav = document.querySelector('nav');
-nav.prepend(takema);
+nav.prepend(freestuff);
 nav.appendChild(ideas);
 
 
